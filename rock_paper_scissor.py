@@ -1,11 +1,11 @@
-#This is rock, paper, scissor game
+# This is rock, paper, scissor game
 
-#importing 'random' to generate a random number
+# importing 'random' to generate a random number
 import random
 
 while True:
 
-#Preparing welcome screen
+# Preparing welcome screen
     print()
     print("\t\t\t\t***Welcome! This is rock, paper, and scissor game***")
     print()
@@ -14,7 +14,7 @@ while True:
     print ("\t***To choose Rock enter 1***\t\t***For Paper enter 2***\t\t***For Scissor enter 3***")
     print()
 
-    #Taking input from user and printing their choice
+    # Taking input from user and printing their choice
 
     try:
         a = int(input("Choose a number from 1 to 3: "))
@@ -33,7 +33,7 @@ while True:
 
         print()
 
-        #Generating random number for computer and printing its choice
+        # Generating random number for computer and printing its choice
         b = random.randint(1, 3)
         if b==1:
             print("Computer chose rock")
@@ -44,7 +44,7 @@ while True:
 
         print()
 
-        #Applying the rules of the game
+        # Applying the rules of the game
         if a==b:
             print("It's a draw.")
         if (a==1 and b==2) or (a==2 and b==3) or (a==3 and b==1):

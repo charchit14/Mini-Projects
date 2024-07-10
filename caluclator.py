@@ -1,4 +1,4 @@
-#This program is a simple calculator to perform ALU for two inputs using function
+# This program is a simple calculator to perform ALU for two inputs using function
 
 while True:
     

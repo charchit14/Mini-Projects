@@ -1,4 +1,4 @@
-#This is 'Guess the number' game
+# This is 'Guess the number' game
 
 import random
 import math
