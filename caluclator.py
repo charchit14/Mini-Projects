@@ -13,7 +13,7 @@ while True:
         i = int(input("Choose your operation, enter from 1 to 4: "))
         print()
 
-        def ad(a,b):
+        def add(a,b):
             return a+b
 
         def sub(a,b):
@@ -24,42 +24,38 @@ while True:
 
         def div(a,b):
             return a/b
-
+        
         if i==1:
             print("You chose Addition")
             print()
             a1=float(input("Enter first number: "))
             a2=float(input("Enter second number: "))
-            a3 = ad(a1,a2)
             print()
-            print("The Sum is: ",a3)
+            print("The Sum is: ",add(a1,a2))
 
         elif i==2:
             print("You chose Subtraction")
             print()
             a1=float(input("Enter first number: "))
             a2=float(input("Enter second number: "))
-            a3 = sub(a1,a2)
             print()
-            print("The Difference is: ",a3)
+            print("The Difference is: ",sub(a1,a2))
 
         elif i==3:
             print("You chose Multiplication")
             print()
             a1=float(input("Enter first number: "))
             a2=float(input("Enter second number: "))
-            a3 = mul(a1,a2)
             print()
-            print("The Product is: ",a3)
+            print("The Product is: ",a3 = mul(a1,a2))
 
         elif i==4:
             print("You chose Divison")
             print()
             a1=float(input("Enter first number: "))
             a2=float(input("Enter second number: "))
-            a3 = div(a1,a2)
             print()
-            print("The Division of", a1,"/",a2, "is: ", a3)
+            print("The Division of", a1,"/",a2, "is: ", div(a1,a2))
 
         else:
             print("Invalid Input")
